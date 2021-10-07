@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+}
+
+
+h1 {
+    color: rgb(12, 90, 15);
+}
+
+.nav-enlace {
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: Impact;
+    
+}
+.nav-enlace:hover {
+    background: grey 
+      
+}
+nav {
+    background: green;
+    padding: 10PX ;
+    text-align: center;
+}   
+.botones1{
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+.seccion1{
+    background-image: url(../img/equipo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    Background-color: transparent;
+    position: relative;
+   
+  
+}
+
+.seccion1 h1 {
+    position: relative;
+    font-family: "carter";
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: "carter";
+    src: url(CarterOne-Regular.ttf);
+}
+
+
+.botones2{
+color: black;
+
+}
+.seccion2{
+    background-image: url(../img/cancha2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+.seccion2 h1{
+    position: relative;
+    font-family: "carter";
+    font-weight: bolder;
+
+}
+
+
+body{
+    background-image: url(../img/cancha.jpg);
+}
+
+
+
