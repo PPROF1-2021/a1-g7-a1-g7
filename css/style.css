@@ -24,7 +24,7 @@ nav {
     background: green;
     padding: 10PX ;
     text-align: center;
-}   
+}  
 .botones1{
     color: black;
     justify-content: center;
@@ -72,6 +72,24 @@ color: black;
     font-weight: bolder;
 
 }
+.botones0{
+    color: black;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: "carter";
+    font-weight: bolder;
+
+    
+    }
+    .seccion0{
+        background-image: url(../img/cancha2.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+
 
 
 body{
