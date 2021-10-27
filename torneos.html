@@ -51,8 +51,43 @@
           <input type="text" name="teléfono" id="Teléfono" placeholder="Telefono De Contacto"size="30"><br>
           <label for="email"> Correo electrónico:</label><br>
           <input type="email" name="email" id="email" placeholder="Ingrese su email" size="30"><br>
+          <label for="teléfono"> Ubicacion segun coordenadas<label><br>
+            <input type="text" name="ubicacion" id="ubicacion" placeholder="ubicacion coordenadas"size="30"><br>
+
+|         
+
+                            <button onclick="getLocation()"> UBICACION SEGUN COORDENADAS </button>
+                            <script>
+                              var x = document.getElementById("demo");
+                              function getLocation() {
+                                if (navigator.geolocation) {
+                                  navigator.geolocation.getCurrentPosition(showPosition);
+                                } else {
+                                  x.innerHTML = "Geolocation is not supported by this browser.";
+                                }
+                              }
+                              
+                              function showPosition(position) {
+                                x.innerHTML = "Latitude: " + position.coords.latitude +
+                                "<br>Longitude: " + position.coords.longitude;
+                              }
+                              </script>
+
+
+
+
+          
+          <div class="ingresar">
+            <button><a href="#"></a>INSCRIBIRSE</button>
+          </div>
  
          </section>
+         <br>
+         <footer><br>
+          <div> 
+            <em><p>info@canchitascba.com.ar</p></em> 
+          </div><br>
+        </footer> 
     
 </body>
 </html>
