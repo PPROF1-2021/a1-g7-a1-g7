@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -22,17 +23,19 @@
       <div>
         <h1> CANCHITAS  </h1>
         <br>
+
       </div>
+        <br>
+     </div>
         
     
     </header>
 
     <nav>
-        <a href= "index.html"class="nav-enlace">INICIO</a>
-        <a href= "login.html"class="nav-enlace">USUARIO</a>
-        <a href= "registro.html"class="nav-enlace">REGISTRATE</a>
-        <a href= "Torneos.html"class="nav-enlace">TORNEOS</a>       
-        <br>
+      <a href= "index.html"class="nav-enlace">INICIO</a>
+      <a href= "login.html"class="nav-enlace">USUARIO</a>
+     <a href= "registro.html"class="nav-enlace">REGISTRATE</a>    
+ <br>
     </nav>
 
     
@@ -41,19 +44,46 @@
         <br><br>
         <h1 class="botones1">¿BUSCAS  EQUIPO?</h1>
         <br>
+        <br>
        
-        <br><br>
+  <br><br>
       </div>
     </section>
-      <section class="seccion2">
-       <div>
-          <br><br>
-          <h1 class="botones2">¿BUSCAS CANCHA?</h1>
-          <br>  
-          <br><br>
-        </div>
+<section class="seccion2">
+      <div>
+        <br><br>
+        <h1 class="botones2">¿BUSCAS CANCHA?</h1>
+      <br>  
+<br><br>
+      </div>
       </section>
-       <br>
+    <br>
+    <p><a href="https://www.adidas.com.ar/">Visita Adidas.com!</a></p>
+    
+     <p>Haga clic en el botón para obtener sus coordenadas.</p>
+
+     <button onclick="getLocation()"> Intentalo </button>
+
+     <p id="demo"></p>
+
+     <script>
+     var x = document.getElementById("demo");
+
+     function getLocation() {
+     if (navigator.geolocation) {
+     navigator.geolocation.getCurrentPosition(showPosition);
+     } else { 
+     x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+   }
+
+     function showPosition(position) {
+     x.innerHTML = "Latitude: " + position.coords.latitude + 
+     "<br>Longitude: " + position.coords.longitude;
+}
+     </script>
+
+
     <footer><br>
       <div> 
         <em><p>info@canchitascba.com.ar</p></em> 
@@ -63,3 +93,4 @@
   </body>
     
 </html>
+
