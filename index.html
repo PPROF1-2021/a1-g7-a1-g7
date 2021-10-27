@@ -55,7 +55,32 @@
       </div>
       </section>
     <br>
+    <p><a href="https://www.adidas.com.ar/">Visita Adidas.com!</a></p>
     
+<p>Haga clic en el botón para obtener sus coordenadas.</p>
+
+<button onclick="getLocation()"> Intentalo </button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+
     <footer><br>
       <div> 
         <em><p>info@canchitascba.com.ar</p></em> 
