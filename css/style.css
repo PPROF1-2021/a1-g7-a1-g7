@@ -40,7 +40,7 @@ nav {
     background-position: center center;
     Background-color: transparent;
     position: relative;
-   
+    padding: 40px;
   
 }
 
@@ -48,6 +48,7 @@ nav {
     position: relative;
     font-family: "carter";
     font-weight: bolder;
+    
 }
 
 @font-face {
@@ -66,7 +67,8 @@ color: black;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-  
+    position: relative;
+    padding: 40px;
 }
 .seccion2 h1{
     position: relative;
@@ -84,19 +86,26 @@ color: black;
 
     
     }
+    .seccion2 h1{
+        position: relative;
+        font-family: "carter";
+        font-weight: bolder;}
     .seccion0{
         background-image: url(../img/cancha2.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed;}
+        background-attachment: fixed;
+        padding: 40px;
+    }
+    
+   
 
 
 
 
-body{
-    background-image: url(img/cancha.jpg);
+ body{
+    background-image: url(../img/cancha.jpg);
 }
-
 
 
