@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.titulo-login{
+    color: white;
+}
+.formulario-login{
+    color: white;
+}
 
 h1 {
     color: rgb(12, 90, 15);
@@ -106,6 +111,11 @@ color: black;
 
  body{
     background-image: url(../img/cancha.jpg);
+}
+.link-torneo{
+    color: azure;
+    text-decoration: none;
+
 }
 
 
