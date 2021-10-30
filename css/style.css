@@ -127,10 +127,12 @@ color: black;
 
 }
 .ver-ubicacion{
-color: black;
+    color: black;
+    font-family: "carter";
+    font-weight: bolder;
+  
+}
 
-      font-family: "carter";
-   font-weight: bolder;}
 .footer{
     position: relative;
     font-family: "carter";
