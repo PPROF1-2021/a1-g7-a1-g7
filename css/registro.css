@@ -40,6 +40,29 @@ p{
     border-style: groove;
 }
 
+#enviar {
+    display: inline-block;
+    background: linear-gradient(grey, black);
+    color: greenyellow;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "carter";
+    border-radius: 10px;
+    border-style: groove;
+}
+
+#ver-ubicacion{
+    display: inline-block;
+    background: linear-gradient(grey, black);
+    color: greenyellow;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "carter";
+    border-radius: 10px;
+    border-style: groove;
+}
+
+
 
 label{
     color: white;
