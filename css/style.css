@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url(../img/cancha.jpg);
+}
 .logo-principal{
     position: relative;
  font-family: "carter";
@@ -72,7 +75,7 @@ nav {
 
 
 .botones2{
-color: black;
+    color: black;
 
 }
 .seccion2{
@@ -100,11 +103,11 @@ color: black;
 
     
     }
-    .seccion2 h1{
+.seccion2 h1{
         position: relative;
         font-family: "carter";
         font-weight: bolder;}
-    .seccion0{
+.seccion0{
         background-image: url(../img/cancha2.jpg);
         background-position: center center;
         background-repeat: no-repeat;
@@ -113,32 +116,26 @@ color: black;
         padding: 40px;
     }
     
-   
-
-
-
-
- body{
-    background-image: url(../img/cancha.jpg);
-}
 .link-torneo{
     color: azure;
     text-decoration: none;
 
-}
+    }
 .ver-ubicacion{
     color: black;
     font-family: "carter";
     font-weight: bolder;
   
-}
+    }
 
 .footer{
     position: relative;
     font-family: "carter";
     font-weight: bolder;
 
-}
+    }
+
+
 
 
 
