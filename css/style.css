@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+.logo-principal{
+    position: relative;
+ font-family: "carter";
+    font-weight: bolder;
+    color: white;
+
+}
 .titulo-login{
     color: white;
 }
@@ -122,6 +129,12 @@ color: black;
 
       font-family: "carter";
    font-weight: bolder;}
+.footer{
+    position: relative;
+    font-family: "carter";
+    font-weight: bolder;
+
+}
 
 
 
