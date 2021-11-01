@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url(../img/cancha.jpg);
+}
 .logo-principal{
     position: relative;
  font-family: "carter";
@@ -23,11 +26,13 @@ h1 {
 
 .nav-enlace {
     display: inline-block;
-    background: black;
+    background: linear-gradient(grey, black);
     color: white;
     padding: 10px 50px;
     text-decoration: none;
-    font-family: Impact;
+    font-family: "carter";
+    border-radius: 30px;
+    border-style: groove;
     
 }
 .nav-enlace:hover {
@@ -35,8 +40,8 @@ h1 {
       
 }
 nav {
-    background: green;
-    padding: 10PX ;
+    background:black;
+    padding: 20PX ;
     text-align: center;
 }  
 .botones1{
@@ -70,7 +75,7 @@ nav {
 
 
 .botones2{
-color: black;
+    color: black;
 
 }
 .seccion2{
@@ -98,11 +103,11 @@ color: black;
 
     
     }
-    .seccion2 h1{
+.seccion2 h1{
         position: relative;
         font-family: "carter";
         font-weight: bolder;}
-    .seccion0{
+.seccion0{
         background-image: url(../img/cancha2.jpg);
         background-position: center center;
         background-repeat: no-repeat;
@@ -111,30 +116,44 @@ color: black;
         padding: 40px;
     }
     
-   
-
-
-
-
- body{
-    background-image: url(../img/cancha.jpg);
-}
 .link-torneo{
     color: azure;
     text-decoration: none;
-
 }
-.ver-ubicacion{
-color: black;
 
-      font-family: "carter";
-   font-weight: bolder;}
+ 
+
 .footer{
     position: relative;
     font-family: "carter";
     font-weight: bolder;
 
+    }
+
+    
+#titulo-torneo {
+    display: inline-block;
+    background: linear-gradient(grey, black);
+    color: greenyellow;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "carter";
+    border-radius: 10px;
+    border-style: groove;
 }
+
+#inscribirse {
+    display: inline-block;
+    background: linear-gradient(grey, black);
+    color: greenyellow;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "carter";
+    border-radius: 20px;
+    border-style: groove;
+}
+
+
 
 
 
