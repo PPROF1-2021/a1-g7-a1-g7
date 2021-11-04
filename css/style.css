@@ -75,7 +75,9 @@ nav {
 
 
 .botones2{
+
     color: greenyellow;
+
 
 }
 .seccion2{
@@ -113,8 +115,10 @@ nav {
         font-family: "carter";
         font-weight: bolder;}
 .seccion0{
+
     display: flex;
     flex-wrap: wrap;
+
         background-image: url(../img/cancha2.jpg);
         background-position: center center;
         background-repeat: no-repeat;
@@ -148,6 +152,19 @@ nav {
     font-family: "carter";
     border-radius: 10px;
     border-style: groove;
+
+}
+
+#inscribirse {
+    display: inline-block;
+    background: linear-gradient(grey, black);
+    color: greenyellow;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "carter";
+    border-radius: 20px;
+    border-style: groove;
+
 }
 
 #inscribirse {
@@ -216,6 +233,8 @@ nav {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
+
+
 
 
 
