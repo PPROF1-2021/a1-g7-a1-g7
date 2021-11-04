@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url(../img/cancha.jpg);
+}
 .logo-principal{
     position: relative;
  font-family: "carter";
@@ -23,11 +26,13 @@ h1 {
 
 .nav-enlace {
     display: inline-block;
-    background: black;
+    background: linear-gradient(grey, black);
     color: white;
     padding: 10px 50px;
     text-decoration: none;
-    font-family: Impact;
+    font-family: "carter";
+    border-radius: 30px;
+    border-style: groove;
     
 }
 .nav-enlace:hover {
@@ -35,25 +40,25 @@ h1 {
       
 }
 nav {
-    background: green;
-    padding: 10PX ;
+    background:black;
+    padding: 20PX ;
     text-align: center;
 }  
 .botones1{
-    color: black;
+    color:greenyellow;
     justify-content: center;
     align-items: center;
 }
 .seccion1{
+    display: flex;
     background-image: url(../img/equipo3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    Background-color: transparent;
-    position: relative;
+    Background-color: transparent;      
     padding: 40px;
-  
+    
 }
 
 .seccion1 h1 {
@@ -70,10 +75,13 @@ nav {
 
 
 .botones2{
-color: black;
+    color: greenyellow;
 
 }
 .seccion2{
+    display: flex;
+ 
+    flex-wrap: wrap;
     background-image: url(../img/cancha2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -86,10 +94,12 @@ color: black;
     position: relative;
     font-family: "carter";
     font-weight: bolder;
+    
+    
 
 }
 .botones0{
-    color: black;
+    color: greenyellow;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -98,43 +108,115 @@ color: black;
 
     
     }
-    .seccion2 h1{
+.seccion2 h1{
         position: relative;
         font-family: "carter";
         font-weight: bolder;}
-    .seccion0{
+.seccion0{
+    display: flex;
+    flex-wrap: wrap;
         background-image: url(../img/cancha2.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
         padding: 40px;
+       
     }
     
-   
-
-
-
-
- body{
-    background-image: url(../img/cancha.jpg);
-}
 .link-torneo{
     color: azure;
     text-decoration: none;
-
 }
-.ver-ubicacion{
-color: black;
 
-      font-family: "carter";
-   font-weight: bolder;}
+ 
+
 .footer{
     position: relative;
     font-family: "carter";
     font-weight: bolder;
 
+    }
+
+    
+#titulo-torneo {
+    display: inline-block;
+    background: linear-gradient(grey, black);
+    color: greenyellow;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "carter";
+    border-radius: 10px;
+    border-style: groove;
 }
+
+#inscribirse {
+    display: inline-block;
+    background: linear-gradient(grey, black);
+    color: greenyellow;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "carter";
+    border-radius: 20px;
+    border-style: groove;
+}
+
+.corner-button {
+  
+  letter-spacing: .02rem;
+  cursor: pointer;
+  background: linear-gradient(grey, black);
+  border: 0.5rem solid currentColor;
+  padding: 1.5rem 2rem;
+  font-size: 2.2rem;
+  color: white;
+  position: relative;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  border-radius: 30px;
+  left: 400px;
+}
+.corner-button:hover {
+  color: rgb(52, 53, 52);
+}
+.corner-button:hover::before {
+  width: 0;
+}
+.corner-button:hover::after {
+  height: 0;
+}
+.corner-button:active {
+  border-width: 0.25rem;
+}
+.corner-button span {
+  position: relative;
+  z-index: 2;
+}
+.corner-button::before, .corner-button::after {
+  content: '';
+  position: absolute;
+  background: #2f2f2f00;
+  z-index: 1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.corner-button::before {
+  width: calc(100% - 3rem);
+  height: calc(101% + 1rem);
+  top: -0.5rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.corner-button::after {
+  height: calc(100% - 3rem);
+  width: calc(101% + 1rem);
+  left: -0.5rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
 
 
 
