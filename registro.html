@@ -91,11 +91,15 @@
                                     </div>
                                       <div>
                                       <label for="nacimiento">Fecha de nacimiento:</label><br>
-                                      <input type="date" name="nacimiento" id="nacimiento"><br>
+                                      <input type="date" name="nacimiento" id="nacimiento" value="" required><br>
+                                      <div class="valid-feedback">¡OK valido!</div>
+                                      <div class="invalid-feedback">Complete el campo.</div>
                                     </div>
                                       <div>
                                       <label for="nombre"> posicion segun coordenadas </label>
-                                      <input type="text" name="nombre" id="nombre" placeholder="INGRESE COORDENADAS SEPARADAS CON / " size="30"><br>
+                                      <input type="text" name="nombre" id="nombre" placeholder="INGRESE COORDENADAS SEPARADAS CON / " size="30" value="" required><br>
+                                      <div class="valid-feedback">¡OK valido!</div>
+                                      <div class="invalid-feedback">Complete el campo.</div>
                                     </div>
         
       
@@ -117,11 +121,13 @@
         <label for="si">SI</label>
         <input type="radio" id="no" value="no" name="cancha">
         <label for="no">NO</label>
+        <div class="valid-feedback">¡OK valido!</div>
+        <div class="invalid-feedback">Complete el campo.</div>
         <br>
         <br>
         <br>
 
-        <button id="enviar"  onclick="alerta()"> Enviar </button>
+        <button id="enviar" type="submit"  name="nameSubmit"  onclick="checkLength()"> Enviar </button>
 
 
         <br>
