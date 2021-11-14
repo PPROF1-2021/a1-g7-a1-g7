@@ -46,8 +46,8 @@ nav {
 }  
 .botones1{
     color:greenyellow;
-    justify-content: center;
-    align-items: center;
+    
+    
 }
 .seccion1{
     display: flex;
@@ -187,7 +187,7 @@ nav {
   padding: 1.5rem 2rem;
   font-size: 2.2rem;
   color: white;
-  position: relative;
+  
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
   border-radius: 30px;
@@ -206,17 +206,11 @@ nav {
   border-width: 0.25rem;
 }
 .corner-button span {
-  position: relative;
+ 
   z-index: 2;
 }
-.corner-button::before, .corner-button::after {
-  content: '';
-  position: absolute;
-  background: #2f2f2f00;
-  z-index: 1;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
+
+
 .corner-button::before {
   width: calc(100% - 3rem);
   height: calc(101% + 1rem);
