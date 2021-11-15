@@ -77,7 +77,7 @@ function CambiarColor(){
 }
 function cambiarImagen(){
   const imagen=document.getElementById ("logo")
-  imagen.src="img/logo_canchitas.pngimg/cesped.jpg"
+  imagen.src="img/cesped.jpg"
 }
 function mostrarOriginal(){
   const imagen=document.getElementById ("logo")
