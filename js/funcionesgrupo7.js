@@ -77,11 +77,11 @@ function CambiarColor(){
 }
 function cambiarImagen(){
   const imagen=document.getElementById ("logo")
-  imagen.src="img/logo_canchitas.png"
+  imagen.src="img/logo_canchitas.pngimg/cesped.jpg"
 }
 function mostrarOriginal(){
   const imagen=document.getElementById ("logo")
-  imagen.src="img/cesped.jpg"
+  imagen.src="img/logo_canchitas.png"
 }
  function mostrarDatos () {
     const nombre2=document.getElementById ("nombre")
