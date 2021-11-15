@@ -83,3 +83,17 @@ function mostrarOriginal(){
   const imagen=document.getElementById ("logo")
   imagen.src="img/cesped.jpg"
 }
+ function mostrarDatos () {
+    const nombre2=document.getElementById ("nombre")
+ 
+    new URL(location.href).searchParams.get('nombre')
+    const params = new URL(location.href).searchParams
+    const nombre = params.get('nombre')
+ 
+   nombre2.innerHTML=`El nombre de tu equipo es ${nombre}`
+   
+  }
+   setTimeout (function(){
+    location.href= "index.html";
+  }, 1000 * 3 );
+}
