@@ -75,3 +75,11 @@ function CambiarColor(){
 
   parrafo1.style.color="red"
 }
+function cambiarImagen(){
+  const imagen=document.getElementById ("logo")
+  imagen.src="img/logo_canchitas.png"
+}
+function mostrarOriginal(){
+  const imagen=document.getElementById ("logo")
+  imagen.src="img/cesped.jpg"
+}
