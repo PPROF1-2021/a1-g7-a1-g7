@@ -51,24 +51,31 @@
 <br>
     <section>
         <div class="contenedor">
-    <form action= "procesar.html" method="get   
-                                                      <br>
+    <form action= "procesar.html" method="post" class="needs-validation" novalidate> 
+        <br>
           <p><strong><h1 id="titulo-torneo"> INSCRIBI A TU EQUIPO</strong> </h1> </p>
                                                       <br>
           <label for="nombre"> </label><br>
-          <input type="text"name="nombre"id="nombre" placeholder="Equipo" size="30"><br>
-      
-          <label for="ubicacion"><label><br>
-          <input type="text" name="teléfono" id="Teléfono" placeholder="Telefono De Contacto"size="30"><br>
-          <label for="email"> </label><br>
-          <input type="email" name="email" id="email" placeholder="Nombre Capitan" size="30"><br>
-          <label for="teléfono"> <label><br>
-          <input type="text" name="ubicacion" id="ubicacion" placeholder="Nombre de cancha"size="30"><br>
-            
+          <input type="text"name="nombre"id="nombre" placeholder="Equipo" size="30" value="" required><br>
+          <div class="valid-feedback">¡OK valido!</div>
+          <div class="invalid-feedback">Complete el campo.</div>
+          <label for="Telefono"><label><br>
+          <input type="tel" name="teléfono" id="telefono" placeholder="Telefono De Contacto"size="30" value="" required><br>
+          <div class="valid-feedback">¡OK valido!</div>
+          <div class="invalid-feedback">Complete el campo.</div>
+          <label for="Capitan"> </label><br>
+          <input type="text" name="Capitan" id="capitan" placeholder="Nombre Capitan" size="30" value="" required><br>
+          <div class="valid-feedback">¡OK valido!</div>
+          <div class="invalid-feedback">Complete el campo.</div>
+          <label for="nombre de cancha"> <label><br>
+          <input type="text" name="nombre de cancha" id="nombre_de_cancha" placeholder="Nombre de cancha"size="30" value="" required><br>
+          <div class="valid-feedback">¡OK valido!</div>
+          <div class="invalid-feedback">Complete el campo.</div> 
 
-          <label for="text"> <label><br>
-            <input type="text" name="Horario" id="Horario" placeholder="Horario de comienzo"size="30"><br>
-              
+          <label for="horario"> <label><br>
+            <input type="time" name="Horario" id="horario" placeholder="Horario de comienzo"size="30" value="" required><br>
+            <div class="valid-feedback">¡OK valido!</div>
+            <div class="invalid-feedback">Complete el campo.</div>  
 </form>
             <script src="js/funcionesgrupo7.js"></script>
 
