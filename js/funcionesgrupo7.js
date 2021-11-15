@@ -70,3 +70,8 @@ function checkLength(){
       alert("Debe contener mas de 2 caracteres")
   }
 }
+function CambiarColor(){
+  const parrafo1=document.getElementById ("parrafouno")
+
+  parrafo1.style.color="red"
+}
