@@ -93,7 +93,5 @@ function mostrarOriginal(){
    nombre2.innerHTML=`El nombre de tu equipo es ${nombre}`
    
   }
-   setTimeout (function(){
-    location.href= "index.html";
-  }, 1000 * 3 );
-}
+  
+
