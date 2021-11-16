@@ -56,7 +56,7 @@
     <section>
       <div class="contenedor">
    
-       <form method="POST" action="informacion.php" class="was-validated">
+       <form method="post" action="registro.php" class="was-validated">
                                                <Br>
                               <p><strong><h1 id="formulario"> FORMULARIO DE REGISTRO </strong> </h1> </p>
                                               <br>
@@ -99,7 +99,7 @@
                                     </div>
                                       <div>
                                       <label for="nombre"> posicion segun coordenadas </label>
-                                      <input type="text" name="nombre" id="nombre" placeholder="INGRESE COORDENADAS SEPARADAS CON / " size="30" value="" required><br>
+                                      <input type="text" name="coordenadas" id="coordenadas" placeholder="INGRESE COORDENADAS SEPARADAS CON / " size="30" value="" required><br>
                                       <div class="valid-feedback">¡OK valido!</div>
                                       <div class="invalid-feedback">Complete el campo.</div>
                                     </div>
@@ -117,17 +117,17 @@
                               <option value="lapampa">La Pampa</option>
 
                             </select>
-  
-        <p>¿Es propietario de una cancha?</p>
-        <input type="radio" id="si" value="si" name="cancha">
-        <label for="si">SI</label>
-        <input type="radio" id="no" value="no" name="cancha">
-        <label for="no">NO</label>
-        <div class="valid-feedback">¡OK valido!</div>
-        <div class="invalid-feedback">Complete el campo.</div>
-        <br>
-        <br>
-        <br>
+                          
+                                <p>¿Es propietario de una cancha?</p>
+                                <input type="radio" id="si" value="si" name="cancha">
+                                <label for="si">SI</label>
+                                <input type="radio" id="no" value="no" name="cancha">
+                                <label for="no">NO</label>
+                                <div class="valid-feedback">¡OK valido!</div>
+                                <div class="invalid-feedback">Complete el campo.</div>
+                                <br>
+                                <br>
+                                <br>
 
         <button id="enviar" type="submit"  name="nameSubmit"  onclick="checkLength()"> Enviar </button>
 
