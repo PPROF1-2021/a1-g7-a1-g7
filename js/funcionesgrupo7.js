@@ -71,27 +71,52 @@ function checkLength(){
   }
 }
 function CambiarColor(){
-  const parrafo1=document.getElementById ("parrafouno")
+  const parrafouno=document.getElementById ("parrafouno")
 
-  parrafo1.style.color="red"
+  parrafouno.style.color="red"
 }
 function cambiarImagen(){
   const imagen=document.getElementById ("logo")
-  imagen.src="img/cesped.jpg"
+  imagen.src="img/balon.png"
 }
 function mostrarOriginal(){
   const imagen=document.getElementById ("logo")
   imagen.src="img/logo_canchitas.png"
 }
- function mostrarDatos () {
-    const nombre2=document.getElementById ("nombre")
+function mostrarDatos () {
+  const nombre2=document.getElementById ("nombre2")
+
+  new URL(location.href).searchParams.get('nombre')
+  const params = new URL(location.href).searchParams
+  const nombre = params.get('nombre')
+
+ nombre2.innerHTML=`El nombre de tu equipo es ${nombre}`;
+ nombre2.style.color=black;
+
+}
+
  
-    new URL(location.href).searchParams.get('nombre')
-    const params = new URL(location.href).searchParams
-    const nombre = params.get('nombre')
- 
-   nombre2.innerHTML=`El nombre de tu equipo es ${nombre}`
-   
-  }
-  
+
+
+  function calculateAge() {
+    var d = document.getElementById("nacimiento").value;
+       var inDate = new Date(d);
+       var anio = inDate.getFullYear();
+       var fec_actual = new Date() ; 
+    var fec_anio = fec_actual.getFullYear() ;
+       var edad   =  fec_anio -anio ;
+        if (edad >= 18) {
+          alert("Acceso permitido, cumplis la edad minima")
+        }else
+       {
+       alert("ACCESO NO VALIDO: no cumplis la edad minima")
+       }
+   }
+
+
+
+
+
+
+
 
